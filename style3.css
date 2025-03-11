@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    background-color: black;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  nav{
+    
+    height: 80px;
+    width:100%;
+  }
+  nav ul{
+    float: left;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: antiquewhite;
+    font-size: 17px;
+    padding:7px 13px;
+    border-radius: 3px;
+    transition: 0.1s ease; 
+    text-transform: uppercase;
+  }  
+  .topnav a:hover {
+    background-color: #5de90c;
+    color: black;
+    font-weight: bolder;
+  }
+  h1{
+   
+    font-size: 90px;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(255, 251, 0);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin: 15px;
+  }
+  .name {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(236, 234, 219);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin: 25px;
+  }
+  .email {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(236, 234, 219);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin: 25px;
+  }
+  .socialicon{
+      transition: color 0.1s;
+      text-decoration: none;
+      padding: 20px;
+      font-size: 100px;
+      width: 50px;
+      color: yellow;
+      margin: 70px;
+  }
+  .socialicon:hover{
+      color: #f03906;
+      opacity: 0.7;
+  }  
+  * {box-sizing:border-box}
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides {
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(243, 85, 11);
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.1s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(216, 233, 32, 0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 0 2px;
+    background-color: #ae2121;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.1s ease;
+  }
+  .active, .dot:hover {
+    background-color: #cdb923;
+  }
